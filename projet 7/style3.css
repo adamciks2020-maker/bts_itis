@@ -1,0 +1,56 @@
+body 
+{
+	background-color: lightgrey;
+	font-family: Arial;
+	font-size: 2em;
+}
+
+
+.titre 
+{
+	background-color: cyan;
+	height: 110px;
+	width: 22%;
+	margin: auto;
+	color: grey;
+}
+
+
+
+.p1
+{
+	height: 270px;
+	width: 90%;
+	background-color: lightblue;
+	border: 2px solid red;
+	border-radius: 20px;
+	margin: auto;
+	margin-top: 20px;
+
+	float: left;
+}
+
+
+.p2
+{
+	height: 270px;
+	width: 90%;
+	background-color: lightblue;
+	border: 2px solid red;
+	border-radius: 20px;
+	margin: auto;
+	margin-top: 20px;
+
+	float: right;
+}
+
+
+.b3 
+{
+	background-color: darkgrey;
+	height: 400px;
+	width: 400px;
+
+	color: yellow;
+	clear: both;
+}
