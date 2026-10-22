@@ -32,3 +32,12 @@ function verif_age() {
     	document.body.style.backgroundColor = "green"
 	}
 }
+function calculerNotes() {
+    let n1 = prompt("Donnez la note 1 :");
+    let n2 = prompt("Donnez la note 2 :");
+    let n3 = prompt("Donnez la note 3 :");
+    let Somme = Number(n1) + Number(n2) + Number(n3);
+    let Moyenne = Somme/3;
+    document.getElementById("message").textContent =
+    "Somme :" + Somme + "Moyenne :" + Moyenne.toFixed(2);
+}
