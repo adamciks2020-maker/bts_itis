@@ -1,1 +1,28 @@
-/* style.css
+body 
+{
+	background-color: white;
+	font-family: Arial;
+	font-size: 2em;
+}
+
+
+.vert 
+{
+	background-color: white;
+	height: 200px;
+	width: 50%;
+	margin: auto;
+	color: white;
+}
+
+
+.jaune
+{
+	height: 200px;
+	width: 80%;
+	background-color: white;
+	border: 2px solid white;
+	border-radius: 20px;
+	margin: auto;
+	margin-top: 20px;
+}
